@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<ns3:InitSessionSignedRequest xmlns:ns2="http://ksef.mf.gov.pl/schema/gtw/svc/types/2021/10/01/0001" xmlns:ns0="http://ksef.mf.gov.pl/schema/gtw/svc/online/types/2021/10/01/0001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns3="http://ksef.mf.gov.pl/schema/gtw/svc/online/auth/request/2021/10/01/0001">
+	<ns3:Context>
+		<ns0:Challenge>20240424-CR-3893BCBB1F-49ADAFD7DD-32</ns0:Challenge>
+		<ns0:Identifier xsi:type="ns2:SubjectIdentifierByCompanyType">
+			<ns2:Identifier>8363695362</ns2:Identifier>
+		</ns0:Identifier>
+		<ns0:DocumentType>
+			<ns2:Service>KSeF</ns2:Service>
+			<ns2:FormCode>
+				<ns2:SystemCode>FA (2)</ns2:SystemCode>
+				<ns2:SchemaVersion>1-0E</ns2:SchemaVersion>
+				<ns2:TargetNamespace>http://crd.gov.pl/wzor/2023/06/29/12648/</ns2:TargetNamespace>
+				<ns2:Value>FA</ns2:Value>
+			</ns2:FormCode>
+		</ns0:DocumentType>
+		<ns0:Encryption>
+			<ns2:EncryptionKey>
+				<ns2:Encoding>Base64</ns2:Encoding>
+				<ns2:Algorithm>AES</ns2:Algorithm>
+				<ns2:Size>256</ns2:Size>
+				<ns2:Value>LkXh3epA3xm9zCKKKp8lafbUZM9I8mnrY9hhjoAeJyID1tBIwH26G3eSnFwgUFdTH8bykEp05+tn7Chz5h84OjCcmZGSF51wSUYARq8n+XCJpc/3wSFfwgkm/KGdDvAXUuC0H1Y9J3sgV6nKhBGS7gSC5U1qE9ve95H2z7lnXsz/bCvP2z5MalLpP2aJnrrRSIxXOldrz4CAXFNFawfwaMuW0vodlkHPCDVk6aKVAeStr5kCwRrCgnwbvkNW6wYK7f5FupqP0FnKsvyj8T4h3B+CEJfsJETy9Aqzu6VUU+c9105+FlTQDejRtHv/E72wtwbAPjkRQIJOrzi/0ndHzQ==</ns2:Value>
+			</ns2:EncryptionKey>
+			<ns2:EncryptionInitializationVector>
+				<ns2:Encoding>Base64</ns2:Encoding>
+				<ns2:Bytes>16</ns2:Bytes>
+				<ns2:Value>wsCMpNfAcviq2n8a5RETtQ==</ns2:Value>
+			</ns2:EncryptionInitializationVector>
+			<ns2:EncryptionAlgorithmKey>
+				<ns2:Algorithm>RSA</ns2:Algorithm>
+				<ns2:Mode>ECB</ns2:Mode>
+				<ns2:Padding>PKCS#1</ns2:Padding>
+			</ns2:EncryptionAlgorithmKey>
+			<ns2:EncryptionAlgorithmData>
+				<ns2:Algorithm>AES</ns2:Algorithm>
+				<ns2:Mode>CBC</ns2:Mode>
+				<ns2:Padding>PKCS#7</ns2:Padding>
+			</ns2:EncryptionAlgorithmData>
+		</ns0:Encryption>
+		<ns0:Type>SerialNumber</ns0:Type>
+	</ns3:Context>
+</ns3:InitSessionSignedRequest>
